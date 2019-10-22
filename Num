@@ -1,0 +1,17 @@
+public class Num
+{
+    private int value;
+    public Num (int value)
+    {
+        this.value = value;
+    }//end Num
+    public void setValue(int value)
+    {
+        this.value = value;
+    }
+    public String toString()
+    {
+        return "Value is: " + value;
+    }//end toString
+}//end class
+

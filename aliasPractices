@@ -1,0 +1,20 @@
+public class aliasPractice
+{
+        public static void main(String args[])
+        {
+          //  Integer i1 = new Integer (23);
+            // Integer i2 = new Integer (24);
+
+            Num n1 = new Num (56);
+            Num n2 = new Num (57);
+           // i1 = i2;
+            //i2 = 60;
+
+            n1 = n2;
+            //System.out.println(i1);
+            n2.setValue(90);
+            //   System.out.println(i1);
+            //   System.out.println(i2);
+            System.out.println(n1);
+        }//end main method
+}//end class
